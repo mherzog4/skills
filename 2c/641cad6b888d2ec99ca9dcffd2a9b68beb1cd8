@@ -1,0 +1,25 @@
+README.md
+  s_91cf6f00591f47::t_e29d83c2adac0d 2-35
+.claude-plugin/marketplace.json
+  s_91cf6f00591f47::t_1f1d705a819e3d 1-21
+.claude-plugin/plugin.json
+  s_91cf6f00591f47::t_f0b311de133210 1-20
+skills/volley/SKILL.md
+  s_91cf6f00591f47::t_a28d2f92ec673f 1-92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "2c641cad6b888d2ec99ca9dcffd2a9b68beb1cd8",
+  "prompts": {},
+  "sessions": {
+    "s_91cf6f00591f47": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2ca18cc5-cde5-40fc-8d63-93f9cc00463c",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Mherzog4 <matthewherzog4@gmail.com>"
+    }
+  }
+}
