@@ -1,0 +1,21 @@
+{
+  "name": "mherzog4",
+  "owner": {
+    "name": "Matt Herzog"
+  },
+  "description": "Matt Herzog's installable Claude Code skills.",
+  "plugins": [
+    {
+      "name": "mherzog4-skills",
+      "source": "./",
+      "description": "Skills by mherzog4 — starting with volley, intellectual tennis for stress-testing ideas.",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "volley",
+        "brainstorming",
+        "thinking"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "mherzog4-skills",
+  "version": "0.1.0",
+  "description": "Skills by mherzog4 — starting with volley, intellectual tennis for stress-testing ideas.",
+  "author": {
+    "name": "Matt Herzog"
+  },
+  "repository": "https://github.com/mherzog4/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "volley",
+    "brainstorming",
+    "socratic",
+    "thinking"
+  ],
+  "skills": [
+    "./skills/volley"
+  ]
+}
