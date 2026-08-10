@@ -17,6 +17,20 @@ npx skills@latest add mherzog4/skills
 
 Pick the skills and agents you want. Works with Claude Code, Codex, and any Agent-Skills-standard harness.
 
+Preview what's in here without installing:
+
+```bash
+npx skills@latest add mherzog4/skills --list
+```
+
+Or grab one:
+
+```bash
+npx skills@latest add mherzog4/skills --skill call-stack
+```
+
+Browse the same catalog on the web at [skills.sh/mherzog4/skills](https://skills.sh/mherzog4/skills).
+
 ### Claude Code plugin (managed bundle, auto-updates)
 
 ```
@@ -33,4 +47,12 @@ claude plugin install mherzog4-skills@mherzog4
 
 ## Adding a skill
 
-Each skill is a folder under `skills/` containing a `SKILL.md` with YAML frontmatter (`name`, `description`). Add the folder path to the `skills` array in `.claude-plugin/plugin.json` so the plugin picks it up. The `npx skills` installer auto-discovers any `SKILL.md` — no manifest edit needed for that path.
+Each skill is a folder under `skills/` containing a `SKILL.md` with YAML frontmatter (`name`, `description`).
+
+Three places to update, and only one of them is optional:
+
+- `.claude-plugin/plugin.json` — add the folder path to `skills`, and bump `version`. The plugin cache is keyed by version, so an unbumped release leaves existing installs on the old skill set.
+- `skills.sh.json` — add the skill to a grouping so it appears in the right section on skills.sh. A skill left out still installs; it just lands ungrouped at the bottom.
+- `README.md` — the list above.
+
+The `npx skills` installer auto-discovers any `SKILL.md` on its own, so nothing is required for that path to work.

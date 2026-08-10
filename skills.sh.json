@@ -1,0 +1,16 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Codebases",
+      "description": "Skills for reading an unfamiliar system and finding out how it actually runs.",
+      "skills": ["call-stack"]
+    },
+    {
+      "title": "Thinking",
+      "description": "Skills for stress-testing an idea before you build it.",
+      "skills": ["volley"]
+    }
+  ]
+}
