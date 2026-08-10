@@ -1,0 +1,19 @@
+.claude-plugin/plugin.json
+  s_c44a66afa0cdbc::t_11997228795940 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "3fb0ff11b03d4a224da76f8958e609e4ffc38b84",
+  "prompts": {},
+  "sessions": {
+    "s_c44a66afa0cdbc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c452a582-c5fb-43ea-bc2f-6aded9b62b76",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Mherzog4 <matthewherzog4@gmail.com>"
+    }
+  }
+}
