@@ -5,6 +5,7 @@ Installable agent skills by mherzog4.
 ## Skills
 
 - **[volley](./skills/volley/SKILL.md)** — intellectual tennis for ideas. Alternating Socratic volleys that stress-test a concept until it's hardened or revealed as half-baked. Invoke with `/volley [your idea]`.
+- **[call-stack](./skills/call-stack/SKILL.md)** — print a runtime call stack as an ASCII tree in the terminal, traced call by call down to its leaves. Scope it to the whole repo, a feature, or one file: `/call-stack`, `/call-stack billing`, `/call-stack @src/queue/worker.ts`.
 
 ## Install
 

@@ -8,13 +8,15 @@
     {
       "name": "mherzog4-skills",
       "source": "./",
-      "description": "Skills by mherzog4 — starting with volley, intellectual tennis for stress-testing ideas.",
+      "description": "Skills by mherzog4 — volley for stress-testing ideas, call-stack for tracing a codebase's runtime paths.",
       "category": "productivity",
       "keywords": [
         "skills",
         "volley",
         "brainstorming",
-        "thinking"
+        "thinking",
+        "call-stack",
+        "codebase"
       ]
     }
   ]
