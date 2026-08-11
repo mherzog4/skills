@@ -4,8 +4,25 @@ Installable agent skills by mherzog4.
 
 ## Skills
 
+They chain, in this order:
+
+| | Answers |
+|---|---|
+| `/volley` | Is the idea sound? |
+| `/call-stack` | How does the current system actually run? |
+| `/blueprint` | What will we build — typed contracts and call stacks? |
+| `ts-standards` | How do we write it, and what gates "done"? |
+
+Each stands alone. Reach for one, or run the chain.
+
 - **[volley](./skills/volley/SKILL.md)** — intellectual tennis for ideas. Alternating Socratic volleys that stress-test a concept until it's hardened or revealed as half-baked. Invoke with `/volley [your idea]`.
 - **[call-stack](./skills/call-stack/SKILL.md)** — print a runtime call stack as an ASCII tree in the terminal, traced call by call down to its leaves. Scope it to the whole repo, a feature, or one file: `/call-stack`, `/call-stack billing`, `/call-stack @src/queue/worker.ts`.
+- **[blueprint](./skills/blueprint/SKILL.md)** — design a change before you write it. Typed contracts plus entrypoint-to-side-effect call stacks, handed off implementation-ready. Converts what you already have, or grills you first when it isn't enough: `/blueprint`, `/blueprint billing retries`, `/blueprint @src/queue/worker.ts`.
+- **[ts-standards](./skills/ts-standards/SKILL.md)** — correct-by-construction TypeScript. Errors as values, parse don't validate, deep modules, real test seams. Enforced by Biome and ast-grep, and it ends in a checklist the agent runs against its own diff before it reports done.
+
+## Credits
+
+`blueprint` and `ts-standards` are adapted from [dmmulroy/skills](https://github.com/dmmulroy/skills) (MIT) — `tech-spec` and `coding-standards`. Both were reworked rather than forked; each skill's Provenance section records what changed.
 
 ## Install
 

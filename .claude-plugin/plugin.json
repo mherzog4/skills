@@ -1,7 +1,7 @@
 {
   "name": "mherzog4-skills",
-  "version": "0.2.0",
-  "description": "Skills by mherzog4 — volley for stress-testing ideas, call-stack for tracing a codebase's runtime paths.",
+  "version": "0.3.0",
+  "description": "Skills by mherzog4 — volley for stress-testing ideas, call-stack for tracing a codebase's runtime paths, blueprint for designing a change, ts-standards for correct-by-construction TypeScript.",
   "author": {
     "name": "Matt Herzog"
   },
@@ -14,10 +14,18 @@
     "socratic",
     "thinking",
     "call-stack",
-    "codebase"
+    "codebase",
+    "typescript",
+    "coding-standards",
+    "architecture",
+    "blueprint",
+    "tech-spec",
+    "design"
   ],
   "skills": [
     "./skills/volley",
-    "./skills/call-stack"
+    "./skills/call-stack",
+    "./skills/blueprint",
+    "./skills/ts-standards"
   ]
 }

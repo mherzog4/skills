@@ -11,6 +11,16 @@
       "title": "Thinking",
       "description": "Skills for stress-testing an idea before you build it.",
       "skills": ["volley"]
+    },
+    {
+      "title": "Designing",
+      "description": "Skills for settling what you will build before any of it exists.",
+      "skills": ["blueprint"]
+    },
+    {
+      "title": "Writing code",
+      "description": "Standards an agent applies while it writes, and checks against before it reports done.",
+      "skills": ["ts-standards"]
     }
   ]
 }
