@@ -240,7 +240,3 @@ Omit a section that truly does not apply. Keep the typed contracts, the seams, t
 - `ts-standards` owns the design rules this blueprint applies — domain types over primitives, real seams, and abstractions that earn their existence. Apply them. Do not restate them in the blueprint.
 - Keep one source of truth. Where two sections cover one rule, let one point at the other.
 - An unknown stays an open question. A blueprint that feels complete because you invented a product requirement, a domain rule, an API, or a call stack is worse than one with open questions in it.
-
-## Provenance
-
-Adapted from [`dmmulroy/skills`](https://github.com/dmmulroy/skills) (`tech-spec`, MIT). Changes: renamed to `blueprint`; wired to `ts-standards` and `call-stack`; delegated the testing standards; removed the restated design rules.

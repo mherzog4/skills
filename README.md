@@ -22,7 +22,10 @@ Each stands alone. Reach for one, or run the chain.
 
 ## Credits
 
-`blueprint` and `ts-standards` are adapted from [dmmulroy/skills](https://github.com/dmmulroy/skills) (MIT) — `tech-spec` and `coding-standards`. Both were reworked rather than forked; each skill's Provenance section records what changed.
+`blueprint` and `ts-standards` are adapted from [dmmulroy/skills](https://github.com/dmmulroy/skills) (MIT) — `tech-spec` and `coding-standards`. Both were reworked rather than forked.
+
+- `blueprint`, from `tech-spec`: renamed; wired to `ts-standards` and `call-stack`; delegated the testing standards; removed the restated design rules.
+- `ts-standards`, from `coding-standards`: Effect removed in favor of `better-result` and Zod; enforcement delegated to Biome and ast-grep; the module taxonomy and the testing guidance split into `ARCHITECTURE.md` and `TESTING.md`; a done-gate added; `Result` combinators, outbound-call timeouts, `satisfies`, the `_tag` discriminant rule, and `Instant` added.
 
 ## Install
 

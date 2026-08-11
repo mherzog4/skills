@@ -417,7 +417,3 @@ Check each item against the diff. Do not check from memory.
 8. Every test you wrote runs through a real seam.
 
 Name any item you could not complete, and say why.
-
-## Provenance
-
-Adapted from [`dmmulroy/skills`](https://github.com/dmmulroy/skills) (`coding-standards`, MIT). Changes: Effect removed in favor of `better-result` and Zod; enforcement delegated to Biome and ast-grep; the module taxonomy and the testing guidance split into `ARCHITECTURE.md` and `TESTING.md`; a done-gate added; `Result` combinators, outbound-call timeouts, `satisfies`, the `_tag` discriminant rule, and `Instant` added.
